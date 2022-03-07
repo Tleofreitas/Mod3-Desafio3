@@ -16,8 +16,7 @@
   font-family: "Poppins", sans-serif;
 }
 
-html,
-body {
+html, body {
   padding: 0;
   margin: 0;
 }
@@ -32,6 +31,9 @@ a:hover {
   width: 100%;
   max-width: 990px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .nav-container {
@@ -41,7 +43,7 @@ a:hover {
   height: 100px;
   width: 100%;
   padding: 20px;
-  position: fixed;
+  /* position: fixed; */
 }
 
 .nav-main {
@@ -53,11 +55,64 @@ a:hover {
 .nav-main a {
   color: var(--color-white);
   text-decoration: none;
+  font-size: 18px;
 }
 
-.menu-items { list-style-type: none;
+.menu-items {
+  list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-.menu-items li { display: none;}
+.menu-items li {
+  display: none;
+}
+
+.portfolio-title {
+  font-size: 24px;
+  text-align: center;
+  color: var(--third-color);
+  margin: 40px 0 10px 0;
+}
+
+.news {
+    background-color: #f0f0f0;
+    width: calc(100% - 20px);
+    padding: 15px 10px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 10px 0 30px 0;
+  }
+  
+  .news h3 {
+    color: var(--main-color); font-size: 16px;
+  }
+  .news h4 {
+    color: var(--third-color); font-size: 12px;
+    border-bottom: solid 2px var(--main-color);
+  }
+  .news h6 {
+    color: var(--main-color); font-size: 10px;
+    margin: 5px 0 12px 0;
+  }
+  .news p {
+    color: var(--third-color); font-size: 10px;
+    padding: 10px 0 10px 0;
+  }
+  .news a {
+    margin: 12px 0; font-size: 14px;
+    color: var(--secondary-color);
+  }
+
+  .btn {
+    padding: 10px;
+    width: 244px;
+    height: 67px;
+    color: var(--color-white);
+    font-size: 18px;
+    background: var(--secondary-color);
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid var(--secondary-color);
+  }
