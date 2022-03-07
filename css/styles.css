@@ -41,7 +41,7 @@ a:hover {
   height: 100px;
   width: 100%;
   padding: 20px;
-  position: fixed;
+  /* position: fixed; */
 }
 
 .nav-main {
@@ -55,9 +55,19 @@ a:hover {
   text-decoration: none;
 }
 
-.menu-items { list-style-type: none;
+.menu-items {
+  list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-.menu-items li { display: none;}
+.menu-items li {
+  display: none;
+}
+
+.portfolio-title {
+  font-size: 2rem;
+  text-align: center;
+  color: var(--third-color);
+  margin: 40px 0 10px 0;
+}
