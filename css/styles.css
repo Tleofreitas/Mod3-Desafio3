@@ -164,6 +164,7 @@ a:hover {
   color: var(--third-color);
   align-items: center;
   margin-bottom: 15px;
+  font-size: 24px;
 }
 
 .inscreva-se {
@@ -232,6 +233,8 @@ footer {
 }
 
 @media (min-width: 768px) {
+    .nav-main a {font-size: 24px;
+      }
   .menu-items {
     display: flex;
     align-items: center;
@@ -240,6 +243,8 @@ footer {
     display: inline;
     margin: 15px;
   }
+  .menu-items li a { font-size: 14px;}
+
   .container-768 {
     width: 100%;
     max-width: 990px;
