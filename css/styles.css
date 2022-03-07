@@ -227,6 +227,7 @@ font-size: 14px;
 }
 
 @media(min-width:768px) {
-    
+    .menu-items { display: flex; align-items: center;}
+    .menu-items li { display: inline; margin: 15px;}
 }
 
