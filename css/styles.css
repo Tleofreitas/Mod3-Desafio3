@@ -16,8 +16,7 @@
   font-family: "Poppins", sans-serif;
 }
 
-html,
-body {
+html, body {
   padding: 0;
   margin: 0;
 }
@@ -32,6 +31,9 @@ a:hover {
   width: 100%;
   max-width: 990px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .nav-container {
@@ -53,6 +55,7 @@ a:hover {
 .nav-main a {
   color: var(--color-white);
   text-decoration: none;
+  font-size: 18px;
 }
 
 .menu-items {
@@ -66,8 +69,36 @@ a:hover {
 }
 
 .portfolio-title {
-  font-size: 2rem;
+  font-size: 24px;
   text-align: center;
   color: var(--third-color);
   margin: 40px 0 10px 0;
 }
+
+.news {
+    background-color: #f0f0f0;
+    width: calc(100% - 20px);
+    padding: 15px 10px;
+    border-radius: 8px;
+    box-shadow: 0px 5px 10px black;
+  }
+  
+  .news h3 {
+    color: var(--main-color); font-size: 16px;
+  }
+  .news h4 {
+    color: var(--third-color); font-size: 12px;
+    border-bottom: solid 2px var(--main-color);
+  }
+  .news h6 {
+    color: var(--main-color); font-size: 10px;
+    margin: 5px 0 12px 0;
+  }
+  .news p {
+    color: var(--third-color); font-size: 10px;
+    padding: 10px 0 10px 0;
+  }
+  .news a {
+    margin: 12px 0; font-size: 14px;
+    color: var(--secondary-color);
+  }
