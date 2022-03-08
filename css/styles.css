@@ -179,7 +179,7 @@ a:hover {
   margin: 10px 0;
 }
 
-.txt-inscrevase {
+.txt-inscrevase { font-size: 16px;
   color: var(--third-color);
 }
 .newsletter {
@@ -212,6 +212,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .footer-infos {
@@ -242,7 +243,7 @@ footer {
     margin: 15px;
   }
   .menu-items li a { font-size: 14px;}
-  .noticias-title { font-size: 36px;}
+  .noticias-title, .jogos-title, .inscricao-title { font-size: 36px;}
   .news h3 { font-size: 24px;}
   .news h4 { font-size: 16px;}
 
@@ -258,5 +259,14 @@ footer {
   .container-768 .card {
     margin: 15px;
   }
-  .jogos-title { font-size: 36px;}
+  .inscreva-se { width: 545px;
+    padding: 50px 42.5px;
+    margin: 40px auto;
+  }
+  .inpInfos { width: 460px;}
+  footer { flex-direction: row;}
+}
+
+@media (min-width: 1325px) {
+  .container-768 { max-width: 1350px;}
 }
