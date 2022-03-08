@@ -70,7 +70,7 @@ a:hover {
   display: none;
 }
 
-.portfolio-title {
+.noticias-title {
   font-size: 24px;
   text-align: center;
   color: var(--third-color);
@@ -138,6 +138,8 @@ a:hover {
 
 .card {
   width: calc(100% - 20px);
+  max-width: 300px;
+  max-height: 326px;
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
   border-radius: 8px;
   display: flex;
@@ -146,14 +148,12 @@ a:hover {
   margin: 25px 0;
 }
 
-.card h4 {
+.card h4 { font-size: 18px;
   color: var(--third-color);
   margin-top: 27px;
 }
-.card p {
-  font-size: 12px;
-}
-.card h2 {
+.card p { font-size: 14px;}
+.card h2 { font-size: 36px;
   color: var(--main-color);
   margin: 15px;
 }
@@ -162,6 +162,7 @@ a:hover {
   color: var(--third-color);
   align-items: center;
   margin-bottom: 15px;
+  font-size: 24px;
 }
 
 .inscreva-se {
@@ -178,7 +179,7 @@ a:hover {
   margin: 10px 0;
 }
 
-.txt-inscrevase {
+.txt-inscrevase { font-size: 16px;
   color: var(--third-color);
 }
 .newsletter {
@@ -211,22 +212,61 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
-.footer-infos { color: var(--color-white);
-font-size: 14px;
-display: flex;
-flex-direction: column;
-align-items: center;
-width: calc(100% - 20px);
-margin: 30px 0;}
-
-.footer-infos a { color: var(--fifth-color);
-text-decoration: none;
-font-size: 14px;
+.footer-infos {
+  color: var(--color-white);
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: calc(100% - 20px);
+  margin: 30px 0;
 }
 
-@media(min-width:768px) {
-    
+.footer-infos a {
+  color: var(--fifth-color);
+  text-decoration: none;
+  font-size: 14px;
 }
 
+@media (min-width: 768px) {
+  .nav-main a {font-size: 24px;
+      }
+  .menu-items {
+    display: flex;
+    align-items: center;
+  }
+  .menu-items li {
+    display: inline;
+    margin: 15px;
+  }
+  .menu-items li a { font-size: 14px;}
+  .noticias-title, .jogos-title, .inscricao-title { font-size: 36px;}
+  .news h3 { font-size: 24px;}
+  .news h4 { font-size: 16px;}
+
+  .container-768 {
+    width: 100%;
+    max-width: 990px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .container-768 .card {
+    margin: 15px;
+  }
+  .inscreva-se { width: 545px;
+    padding: 50px 42.5px;
+    margin: 40px auto;
+  }
+  .inpInfos { width: 460px;}
+  footer { flex-direction: row;}
+}
+
+@media (min-width: 1325px) {
+  .container-768 { max-width: 1350px;}
+}
