@@ -70,7 +70,7 @@ a:hover {
   display: none;
 }
 
-.portfolio-title {
+.noticias-title {
   font-size: 24px;
   text-align: center;
   color: var(--third-color);
@@ -148,14 +148,12 @@ a:hover {
   margin: 25px 0;
 }
 
-.card h4 {
+.card h4 { font-size: 18px;
   color: var(--third-color);
   margin-top: 27px;
 }
-.card p {
-  font-size: 12px;
-}
-.card h2 {
+.card p { font-size: 14px;}
+.card h2 { font-size: 36px;
   color: var(--main-color);
   margin: 15px;
 }
@@ -233,7 +231,7 @@ footer {
 }
 
 @media (min-width: 768px) {
-    .nav-main a {font-size: 24px;
+  .nav-main a {font-size: 24px;
       }
   .menu-items {
     display: flex;
@@ -244,6 +242,9 @@ footer {
     margin: 15px;
   }
   .menu-items li a { font-size: 14px;}
+  .noticias-title { font-size: 36px;}
+  .news h3 { font-size: 24px;}
+  .news h4 { font-size: 16px;}
 
   .container-768 {
     width: 100%;
@@ -257,4 +258,5 @@ footer {
   .container-768 .card {
     margin: 15px;
   }
+  .jogos-title { font-size: 36px;}
 }
