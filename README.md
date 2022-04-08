@@ -5,7 +5,7 @@ Repositório criado com o objetivo de orientrar a visualição do projeto.
 ## *Features (Funcionalidades)*
 Não foram implementadas funcionalidades.
 Trata-se de um layout estático desenvolvido para exercitar os conhecimentos adquiridos em aula.
-O projeto foi elaborado *Mobile First* e após aplicado a responsividade para layouts 768px e 990px.
+O projeto foi elaborado *Mobile First* e após aplicado a responsividade para layouts 768px ou supeior.
 
 ---
 ## 👨‍💻️ *Tecnologias Utilizadas*
