@@ -44,16 +44,19 @@ Siga o passo a passo abaixo:
 
   # Extrair arquivos sem Winrar
   > Abra a pasta onde o arquivo foi salvo.
-  >> Clique com o botão direito sobre o arquivo e selecione Extrair Tudo.
+  >> Clique com o botão direito sobre o arquivo e selecione
+  Extrair Tudo.
   >>> As informações foram extraídas para a pasta ExactTime-main.
 
   # Extrair arquivos com Winrar
   > Abra a pasta onde o arquivo foi salvo.
-  >> Clique com o botão direito sobre o arquivo e selecione Extrair Aqui (Extract Here em inglês).
+  >> Clique com o botão direito sobre o arquivo e selecione
+  Extrair Aqui (Extract Here).
   >>> As informações foram extraídas para a pasta ExactTime-main.
 
 	# Abrir o projeto
-  ❯ Abra a pasta ExactTime-main, clique com o botão direito sobre o arquivo index.html.
+  ❯ Abra a pasta ExactTime-main, clique com o botão direito sobre o
+  arquivo index.html.
   Selecione "abrir com", e selecione o navegaor de sua preferência.
 ```
 ---
