@@ -46,16 +46,16 @@ Siga o passo a passo abaixo:
   > Abra a pasta onde o arquivo foi salvo.
   >> Clique com o botão direito sobre o arquivo e selecione
   Extrair Tudo.
-  >>> As informações foram extraídas para a pasta ExactTime-main.
+  >>> As informações foram extraídas para a pasta Mod3_Desafio3-main.
 
   # Extrair arquivos com Winrar
   > Abra a pasta onde o arquivo foi salvo.
   >> Clique com o botão direito sobre o arquivo e selecione
   Extrair Aqui (Extract Here).
-  >>> As informações foram extraídas para a pasta ExactTime-main.
+  >>> As informações foram extraídas para a pasta Mod3_Desafio3-main.
 
 	# Abrir o projeto
-  ❯ Abra a pasta ExactTime-main, clique com o botão direito sobre o
+  ❯ Abra a pasta Mod3_Desafio3-main, clique com o botão direito sobre o
   arquivo index.html.
   Selecione "abrir com", e selecione o navegaor de sua preferência.
 ```
